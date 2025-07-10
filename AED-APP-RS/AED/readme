@@ -1,23 +1,9 @@
-/node-v22.17.0-win-x64     
-# 攜帶式 Node.js 執行環境
-
-setup.bat                   
-# AED 系統初始化與安裝模組腳本
-
-run.bat                     
-# 啟動 AED 伺服器腳本
-
-index.js                     
-# AED 伺服器主程式
-
-package.json                 
-# AED 系統 npm 專案設定
-
-package-lock.json
-# 附加模組信息
-
-/node_modules
-# 附加模組資料夾
-
-/public           
-# 前端靜態檔案 (HTML/CSS/JS)
+AED/
+├── node-v22.17.0-win-x64/  # 攜帶式 Node.js 執行環境
+├── setup.bat               # AED 系統初始化與安裝模組腳本
+├── run.bat                 # 啟動 AED 伺服器腳本
+├── index.js                # AED 伺服器主程式
+├── package.json            # AED 系統 npm 專案設定
+├── package-lock.json       # 附加模組信息
+├── node_modules/           # 附加模組資料夾
+├── public/                 # 前端靜態檔案 (HTML/CSS/JS)
